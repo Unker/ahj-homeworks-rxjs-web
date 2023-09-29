@@ -1,0 +1,14 @@
+.polling-list {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.polling-list-item {
+    box-shadow: 3px -3px 3px black;
+    margin: 5px 0;
+    border: 1px solid black;
+    padding: 5px;
+}
