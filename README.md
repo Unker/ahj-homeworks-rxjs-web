@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "11. RxJS"
 
-![CI](https://github.com/unker/ahj-homeworks-rxjs/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/unker/ahj-homeworks-rxjs-web/actions/workflows/web.yml/badge.svg)
 
 https://unker.github.io/ahj-homeworks-rxjs/
 
