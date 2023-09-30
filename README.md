@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/unker/ahj-homeworks-rxjs-web/actions/workflows/web.yml/badge.svg)
 
-https://unker.github.io/ahj-homeworks-rxjs/
+https://unker.github.io/ahj-homeworks-rxjs-web/
 
 
 Правила сдачи задания:
