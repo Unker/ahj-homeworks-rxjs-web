@@ -1,5 +1,8 @@
-import '../components/Polling/Polling.css';
-import Polling from '../components/Polling/Polling';
+import '../components/Messages/MessagesUI.css';
+import MessagesPollingService from '../components/Messages/MessagesPollingService';
+import MessagesUI from '../components/Messages/MessagesUI';
 
-const pollingContainer = document.querySelector('.polling-container');
-const polling = new Polling(process.env.SERVER_URL || 'https://unker-ahj-homeworks-rxjs-server.onrender.com', pollingContainer);
+const messageContainer = document.querySelector('.polling-container');
+const pollingService = new MessagesPollingService(process.env.SERVER_URL
+    || 'https://unker-ahj-homeworks-rxjs-server.onrender.com');
+const messagesUI = new MessagesUI(messageContainer, pollingService);
